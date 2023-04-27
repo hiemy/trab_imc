@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #374A52;
+    position: relative;
+}
+
+nav{
+    background-color: #3A829E;
+    padding: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;}
+
+.logo{
+    display: flex;
+}
+nav .logo p{
+    font-size: 20px;
+    color: rgb(230, 230, 230);
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    
+}
+
+nav .logo p{
+    font-size: 20px;
+    color:#ccc;
+    display: flex;
+    align-items: center;
+}
+nav .logo img{
+        width: 60px;
+        height: 65px;
+        display: flex;
+        margin-inline: 10%;
+    }
+    
+nav ul{
+        list-style: none;
+        margin-right: 5%;
+        gap: 10%;
+        
+    }
+    
+nav ul li {
+    display:inline-block
+    
+}
+
+nav ul li a{
+    padding: 5px 8px;
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(230, 230, 230);
+    font-weight: bold;
+    border-radius: 7%;
+    transition: 0.5s;
+}
+nav ul li a:hover{
+    background-color: #183540;
+}
+
+h2{
+    font-weight: bold;
+    color: azure;
+    margin-bottom: 3%;
+}
+
+.tudo{
+    margin-inline: 12%;
+    text-align: center;
+}
+
+#parag1{
+    color: azure;
+    margin-top: 5%;
+    text-align: justify;
+}
+#parag2{
+    color: azure;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-align: justify;
+
+}
+
+.img1{
+    width: 50%;
+    border-radius: 5%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.conteiner2{
+    display: flex;
+}
+
+
+.right{
+    text-align: center;
+}
+
+#sub{
+    color: #ccc;
+    text-align: left;
+    margin-top: 8%;
+}

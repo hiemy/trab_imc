@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br"> 
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/style2.css">
+    <script> src="../js/script.js" </script>
+    <title> IMC </title>
+</head>
+
+<nav>
+    <div class="logo">
+        <img src="../img/logo_saude.png" >
+        <p> Índice de Massa Corporal </p>
+    </div>
+    <ul>
+        <li><a href="../index.html"> ALIMENTAÇÃO SAUDÁVEL </a></li>
+        <li><a href="calc.html"> CALCULADORA </a></li>
+    </ul>        
+</nav>
+
+<body>
+    <div class="tudo">
+        <div class="right">
+            <h3 id="sub"> • O que é IMC? </h3>
+            <p id="parag2">
+                O IMC é um índice que mede se você está abaixo, dentro ou acima do peso, 
+                de acordo com a relação entre seu peso e altura. Descubra como calcular 
+                esse índice, quais os valores ideais, as exceções da tabela padrão, a 
+                especificidade do IMC para crianças e jovens e muito mais neste artigo completo.
+                Abaixo segue uma tabela sobre as medidas:
+            </p>
+            <img class="img1" src="../img/Tabela-IMC.webp">
+            <h3 style="text-align: center;"  id="sub"> Você pode calcular aqui sua taxa de IMC: </h3>
+        </div>
+        
+    </div>
+
+    <div class="formato">
+        <h2 id="title_calc"> Calculadora de IMC </h2>
+        <div class="check">
+            <input name = "faixa_etaria" type="radio" checked > Adulto
+            <input name = "faixa_etaria" type="radio" checked > Idoso
+        </div>
+        <div class="pergs">
+            <div class="perg_peso">
+                <input placeholder="Peso-> Ex: 80" class="input">
+            </div>
+
+            <div class="perg_peso">
+                <input placeholder="Altura-> Ex: 1,80" class="input" onkeypress="mask()">
+            </div>
+
+            <div id="botao">
+                <button type="button" onclick="calc()"> calcular </button>
+            </div>
+
+                <p style="text-align:center"> *Só faltou calcular de verdade vaguin, não consegui :( </p>
+        </div>
+
+        <h3 style="text-align: center;"  id="sub"> • Vídeos falando mais sobre Peso Ideal • </h3>
+        
+        <div class="videos" >
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/lpoCY2gxGrI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/E7I89DmhDfc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+    </div>
+</body>
+</html>
+
+<!-- https://color.adobe.com/pt/search?q=saude  cores --> 
